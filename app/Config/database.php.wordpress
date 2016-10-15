@@ -1,0 +1,26 @@
+<?php
+
+// Rename this file to database.php.
+
+class DATABASE_CONFIG {
+
+	public $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'xxxxxx',
+		'login' => 'xxxxxx',
+		'password' => 'xxxxxx',
+		'database' => 'xxxxxx',
+		'prefix' => '',
+	);
+
+	public $wordpress = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'yyyyyy',
+		'login' => 'yyyyyy',
+		'password' => 'yyyyyy',
+		'database' => 'yyyyyy',
+		'prefix' => 'wp_', // probably 'wp_'.
+	);
+}
